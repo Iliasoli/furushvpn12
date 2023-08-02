@@ -1,0 +1,78 @@
+/* Import styles from styles.css */
+@import url("styles.css");
+
+/* Additional styles for login page */
+body {
+  background-color: #f2f2f2; /* Override background color */
+}
+
+.container {
+  max-width: 400px; /* Adjust container size */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 40px; /* Adjust container padding */
+  background-color: #fff; /* Container background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Adjust heading margin */
+}
+
+form {
+  margin-bottom: 20px; /* Adjust form margin */
+}
+
+label {
+  display: block; /* Display labels as block elements */
+  margin-bottom: 10px; /* Adjust label margin */
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  display: block; /* Display the button as a block element */
+  width: 100%; /* Adjust button width */
+  padding: 10px 20px; /* Adjust button padding */
+  font-size: 16px; /* Adjust button font size */
+  border: none; /* Remove button border */
+  background-color: #4CAF50; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Change button background color on hover */
+}
+
+button[type="submit"]:active {
+  background-color: #3e8e41; /* Change button background color on active state */
+}
+
+a.back-button {
+  display: inline-block; /* Display the back button as an inline-block element */
+  padding: 12px 20px; /* Adjust back button padding */
+  font-size: 18px; /* Adjust back button font size */
+  text-decoration: none; /* Remove back button text decoration */
+  background-color: #3498db; /* Back button background color */
+  color: #fff; /* Back button text color */
+  border-radius: 4px; /* Add border radius */
+}
+
+a.back-button:hover {
+  background-color: #2980b9; /* Change back button background color on hover */
+}
+
+a.back-button:active {
+  background-color: #2573ac; /* Change back button background color on active state */
+}
+
+/* Add any other custom styles specific to the login page here */

@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("background.jpg");
+}body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+  background-image: url("background.jpg");
+}
+
+.container,#container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Shabnam', Arial, sans-serif;
+}
+.show-price,#show-price{
+  font-family: 'Shabnam', Arial, sans-serif;
+  margin-top: 6px;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #2980b9;
+}
+
+header {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+@font-face {
+  font-family: 'Shabnam';
+  src: url('Shabnam.ttf') format('truetype');
+}
+#product {
+  font-family: 'Shabnam', Arial, sans-serif;
+}
+
+.product {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Shabnam', Arial, sans-serif;
+
+}
+
+
+
+.product img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#buy-button, .buy-button,.custom-button,#custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-family: 'Shabnam', Arial, sans-serif;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
+}
+
+.buy-button:active {
+  background-color: #3e8e41;
+}
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+.custom-button:active {
+  background-color: #3e8e41;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #45a049;
+}
+
+button[type="button"]:active {
+  background-color: #3e8e41;
+}
+
+#priceOutput {
+  margin-bottom: 20px;
+}
+
+a.back-button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+}
+
+a.back-button:hover {
+  background-color: #2980b9;
+}
+
+a.back-button:active {
+  background-color: #2573ac;
+}
+.bar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.bar a {
+  float: right;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.bar a.loginandsign {
+  font-family: 'Shabnam', Arial, sans-serif;
+  font-weight: bold;
+}
+.bar a.loginandsign:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.bar a.active {
+  background-color: #4CAF50;
+  color: white;
+  font-family: 'Shabnam', Arial, sans-serif;
+  font-weight: bold;
+}
